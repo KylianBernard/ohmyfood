@@ -1,0 +1,523 @@
+/* 
+#9356DC couleur Primaire 
+#FF79DA couleur Secondaire
+#99E2D0 couleur térrtiaire 
+*/
+.spinner_chargement {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background:white;
+  }
+  
+  .spinner {
+    border-left: 5px solid #ffffff;
+    border-right: 5px solid #FF79DA;
+    border-top: 5px solid #9456dc;
+    border-bottom: 5px solid #99E2D0;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    animation: spinner linear 1s infinite;
+    margin: auto;
+    position: absolute;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .fin {
+    animation: sortie 35s ease-in both;
+  }
+  
+  @keyframes sortie {
+    0% {
+      transform: scale(1);
+    }
+    10% {
+      background: transparent;
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(0);
+      background: transparent;
+    }
+  }
+header
+{
+    display: flex;
+    justify-content: center;
+}
+
+h1, h6 
+{
+    font-family: "Shrikhand";
+}
+  
+body, html 
+{
+    font-family: "Roboto";
+    margin: 0;
+}
+main img 
+{
+    object-fit: cover;
+    height: 180px;
+}
+.fas.fa-map-marker-alt
+{
+    margin-left: 5rem;
+    font-size: 20px;
+    width: fit-content;
+}
+.localisation
+{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #eaeaea;
+    justify-content:space-between;
+    box-shadow: inset 0px 8px 12px -15px black;
+    padding-right: 6rem;
+}
+.a_propos
+{
+    background-color: #f2f2f2;
+    padding: 6px 34px 14px;
+    display: grid;
+}
+input
+{
+    background: none;
+
+}
+.btn
+{
+    margin-left: 1rem;
+    font-size: 15px;
+    color: #f2f2f2;
+    padding: 18px 22px;
+    border-radius: 26px;
+    background: linear-gradient(#ff79da 0%, #9356dc 100%);
+    transition: all 0.5s ease-out;
+    border: none;
+    display: flex;
+    justify-content: center;
+
+}
+.btn:hover, .btn:active
+{
+    color: #6b6b6b;
+    background: #ff79da;
+}
+
+
+.a_propos h2,.a_propos p
+{
+    text-align: center;
+}
+
+.liste_fonctionnement
+{
+    padding: 0;
+}
+.fonction
+{
+    margin-left: 8%;
+    font-size: 13px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-right: 3%;
+}
+.choisir, .deguster
+{
+    margin-left: -13%;
+}
+.composer
+{
+    margin-left: -14%;
+}
+.choix
+{
+    display: flex;
+    border-radius: 20px 20px 20px 20px;
+    height: 60px;
+    background: #F6F6F6;
+    box-shadow: 0 5px 10px 0 white;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95%;
+    margin-bottom: 24px;
+}
+.fa-mobile-alt
+{
+    margin-left: -35%;
+    color: grey;
+}
+.fa-list-ul:before
+{
+    margin-left: -29%;
+    color: grey;
+}
+.fa-store:before
+{
+    margin-left: -29%;
+    color: grey;
+}
+
+.choisir , .composer , .deguster
+{
+    width: 9%;
+    height: 40%;
+    border-radius: 50%;
+    background-color: #9356DC;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.choix-menu 
+{
+    color: black;
+    margin-right: 18%;
+}
+.choix-menu2
+{
+    margin-right: 36px;
+}
+.choix:hover 
+{
+  cursor: pointer;
+  transition-duration: 0.25s;
+  color: #9456dc;
+  background-color: #9256dc25;
+}
+li 
+{
+    list-style-type: none;
+}
+.titre_restaurant
+{
+    width: 100%;
+}
+.all_restaurant
+{
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+img
+{
+    width: 100%;
+    border-radius: 15px 15px 0 0 ;
+}
+.all_restaurant, .restaurant 
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.restaurant
+{
+    background-color:#F6F6F6 ;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+article
+{
+    width:94%;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0;
+    height: 250px;
+    margin-left: 4%;
+    margin-top: 13%;
+}
+.Nouveau_palette
+{
+    position: absolute;
+    display: flex;
+    color: black;
+    font-weight: bold;
+    background-color: #99E2D0;
+    margin-top: -135%;
+    margin-left: 70%;
+    width: 22%;
+    height: 4%;
+    align-items: center;
+    justify-content: center;
+}
+.Nouveau_note
+{
+    position: absolute;
+    display: flex;
+    color: blueviolet;
+    font-weight: bold;
+    background-color: #99E2D0;
+    margin-left: 71%;
+    margin-top: 40%;
+    width: 22%;
+    height: 4%;
+    align-items: center;
+    justify-content: center;
+}
+.aime, .caption 
+{
+    position: absolute;
+}
+.caption
+{
+    line-height: 3px;
+    margin-left: 5%;
+    margin-top: -2%;
+}
+.aime
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 80%;
+    margin-top: 8%;
+    font-size:24px ;
+    
+}
+.coeur
+{
+    font-size: 25px;
+    color: #f2f2f2;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: grey;
+}
+.coeur:hover
+{
+  cursor: pointer;
+  background: linear-gradient(to bottom left, #9356dc, #ff79da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0;
+}
+footer h3
+{
+    font-family: "Shrikhand";
+    margin-left: 12%;
+}
+
+li
+{
+    display: flex;
+}
+.icone 
+{
+    width: 10%;
+}
+footer 
+{
+    background:#353535;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    font-family: "roboto", sans-serif;
+    width: 101%;
+    margin-top: 19%;
+}
+ul
+{
+    line-height: 25px;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1024px) 
+{
+
+    .a_propos
+    {
+        padding: 5px 13rem 14px;
+    }
+    
+    .localisation
+    {
+        padding-right: 20rem;
+    }
+    .fas.fa-map-marker-alt
+    {
+        margin-left: 20rem;
+    }
+    .btn
+    {
+        margin-left: 6%;
+        margin-top: 3%;
+    }
+    .fonction
+    {
+        margin-left: 30%;
+        width: 44%;
+    }
+    .fonction h2
+    {
+        margin-left: 21%;
+    }
+    .titre_restaurant h3
+    {
+        margin-left: 44%;
+    }
+    .all_restaurant
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .restaurant
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aime
+    {
+        margin-top: 2%;
+        margin-left: 28%;
+    }
+    .all_restaurant article
+    {
+        width: 33%;
+        margin-top: 2%;
+    }
+    .Nouveau_note 
+    {
+        margin-top: -20%;
+        margin-left: 11%;
+    }
+    .Nouveau_palette 
+    {
+        margin-top: -20%;
+        margin-left: 11%;
+    }
+    footer
+    {
+        margin-top: 2%;
+    }
+    .liste_fonctionnement
+    {
+        display: flex;
+        width: 200%;
+        margin-left: -45%;
+
+    }
+  }
+
+
+  @media screen and (min-width: 1025px) and (max-width: 1921px) 
+{
+
+    header h1
+    {
+        font-size: 3rem;
+    }
+    .localisation
+    {
+        justify-content: center;
+        font-size: xx-large;
+    }
+    .fas.fa-map-marker-alt
+    {
+        font-size: xx-large;
+    }
+    .a_propos
+    {
+        font-size: xx-large;
+    }
+    .a_propos a 
+    {
+        font-size: 2rem;
+    }
+    .btn
+    {
+        width: 30%;
+        margin-left: 37rem;
+    }
+    .fonction h2
+    {
+        display: flex;
+        justify-content: center;
+        margin-right: 7%;
+    }
+    .all_restaurant
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 105%;
+        margin-left: -5%;
+    }
+    .titre_restaurant
+    {
+        display: flex;
+        justify-content: center;
+        font-size: x-large;
+    }
+    .restaurant
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .caption
+    {
+        margin-top: -12px;
+        font-size: x-large;
+    }
+    .aime
+    {
+        margin-top: 1%;
+        margin-left: 28%;
+    }
+    main img 
+    {
+        height: 260px;
+    }
+    .all_restaurant article
+    {
+        width: 32%;
+        margin-top: 2%;
+        height: 345px;
+    }
+    .Nouveau_note 
+    {
+        margin-top: -13%;
+        margin-left: 22%;
+        width: 11%;
+    }
+    .Nouveau_palette 
+    {
+        margin-top: -13%;
+        margin-left: 22%;
+        width: 11%;
+    }
+    footer
+    {
+        margin-top: 2%;
+    }
+    .liste_fonctionnement
+    {
+        display: flex;
+        width: 200%;
+    }
+    .choix
+    {
+        width: 14%;
+        margin-left: 2%;
+    }
+  }
