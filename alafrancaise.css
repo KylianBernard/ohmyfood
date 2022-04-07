@@ -223,7 +223,11 @@ opacity: 0;
 .slide_1 
 {
 animation-name: texte_slide;
+<<<<<<< HEAD
 animation-duration: 600ms;
+=======
+animation-duration: 300ms;
+>>>>>>> main
 animation-delay: 0ms;
 animation-timing-function: ease-in-out;
 animation-iteration-count: 1;
@@ -231,6 +235,7 @@ animation-iteration-count: 1;
 .slide_2 
 {
   animation-name: texte_slide;
+<<<<<<< HEAD
   animation-duration: 600ms;
   animation-delay: 200ms;
   animation-timing-function: ease-in-out;
@@ -241,20 +246,40 @@ animation-iteration-count: 1;
 animation-name: texte_slide;
 animation-duration: 600ms;
 animation-delay: 600ms;
+=======
+  animation-duration: 300ms;
+  animation-delay: 20ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;}
+.slide_3 
+{
+animation-name: texte_slide;
+animation-duration: 300ms;
+animation-delay: 30ms;
+>>>>>>> main
 animation-timing-function: ease-in-out;
 animation-iteration-count: 1;
 }
 .slide_4 
 {
+<<<<<<< HEAD
   animation-name: texte_slide;
   animation-duration: 600ms;
   animation-delay: 0ms;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
+=======
+animation-name: texte_slide;
+animation-duration: 300ms;
+animation-delay: 0ms;
+animation-timing-function: ease-in-out;
+animation-iteration-count: 1;
+>>>>>>> main
 }
 .slide_5
 {
   animation-name: texte_slide;
+<<<<<<< HEAD
   animation-duration: 600ms;
   animation-delay: 200ms;
   animation-timing-function: ease-in-out;
@@ -275,10 +300,32 @@ animation-iteration-count: 1;
   animation-delay: 0ms;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
+=======
+  animation-duration: 300ms;
+  animation-delay: 20ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;}
+.slide_6
+{
+animation-name: texte_slide;
+animation-duration: 300ms;
+animation-delay: 30ms;
+animation-timing-function: ease-in-out;
+animation-iteration-count: 1;
+}
+.slide_7
+{
+animation-name: texte_slide;
+animation-duration: 300ms;
+animation-delay: 0ms;
+animation-timing-function: ease-in-out;
+animation-iteration-count: 1;
+>>>>>>> main
 }
 .slide_8
 {
   animation-name: texte_slide;
+<<<<<<< HEAD
   animation-duration: 600ms;
   animation-delay: 200ms;
   animation-timing-function: ease-in-out;
@@ -291,6 +338,19 @@ animation-iteration-count: 1;
   animation-delay: 600ms;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
+=======
+  animation-duration: 300ms;
+  animation-delay: 20ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;}
+.slide_9
+{
+animation-name: texte_slide;
+animation-duration: 300ms;
+animation-delay: 30ms;
+animation-timing-function: ease-in-out;
+animation-iteration-count: 1;
+>>>>>>> main
 }
  
 .menu__button {
@@ -305,7 +365,10 @@ animation-iteration-count: 1;
   border-radius: 26px;
   background: linear-gradient(#ff79da 0%, #9356dc 100%);
   transition: all 0.5s ease-out;
+<<<<<<< HEAD
   border: none;
+=======
+>>>>>>> main
 }
 .menu--btn:hover, .menu--btn:active {
   filter: brightness(110%);
@@ -377,6 +440,7 @@ ul
     margin-top: 1%;
   }
   footer{
+<<<<<<< HEAD
     margin-top: 31rem;
   }
   .menu__button
@@ -469,3 +533,8 @@ ul
     display: flex;
     justify-content: space-around;
   }
+=======
+    margin-top: 35rem;
+  }
+}
+>>>>>>> main
