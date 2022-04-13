@@ -94,12 +94,8 @@ main img
 .a_propos
 {
     background-color: #f2f2f2;
-<<<<<<< HEAD
     padding: 6px 34px 14px;
     display: grid;
-=======
-    padding: 23px 16px 35px;
->>>>>>> main
 }
 input
 {
@@ -108,12 +104,7 @@ input
 }
 .btn
 {
-<<<<<<< HEAD
     margin-left: 1rem;
-=======
-    margin-top: 1rem;
-    margin-left: 3rem;
->>>>>>> main
     font-size: 15px;
     color: #f2f2f2;
     padding: 18px 22px;
@@ -121,11 +112,8 @@ input
     background: linear-gradient(#ff79da 0%, #9356dc 100%);
     transition: all 0.5s ease-out;
     border: none;
-<<<<<<< HEAD
     display: flex;
     justify-content: center;
-=======
->>>>>>> main
 
 }
 .btn:hover, .btn:active
@@ -222,10 +210,6 @@ li
 .titre_restaurant
 {
     width: 100%;
-<<<<<<< HEAD
-=======
-    margin-left: 7%;
->>>>>>> main
 }
 .all_restaurant
 {
@@ -350,12 +334,15 @@ footer
     width: 101%;
     margin-top: 19%;
 }
+footer h3
+{
+    margin-left: 0;
+}
 ul
 {
     line-height: 25px;
 }
 
-<<<<<<< HEAD
 @media screen and (min-width: 700px) and (max-width: 1024px) 
 {
 
@@ -363,9 +350,6 @@ ul
     {
         padding: 5px 13rem 14px;
     }
-=======
-@media screen and (min-width: 700px) and (max-width: 1024px) {
->>>>>>> main
     
     .localisation
     {
@@ -377,7 +361,6 @@ ul
     }
     .btn
     {
-<<<<<<< HEAD
         margin-left: 6%;
         margin-top: 3%;
     }
@@ -393,15 +376,10 @@ ul
     .titre_restaurant h3
     {
         margin-left: 44%;
-=======
-        margin-left: 35%;
-        margin-top: 10%;
->>>>>>> main
     }
     .all_restaurant
     {
         display: flex;
-<<<<<<< HEAD
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
@@ -431,16 +409,46 @@ ul
         margin-top: -20%;
         margin-left: 11%;
     }
+    ul
+    {
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+    }
     footer
     {
         margin-top: 2%;
+        display: block;
+        text-align: center;t
     }
     .liste_fonctionnement
     {
         display: flex;
         width: 200%;
         margin-left: -45%;
-
+    }
+    .caption
+    {
+        margin-top: -1%;
+    }
+    .choisir 
+    {
+        align-items: center;
+    }
+    .composer
+    {
+        align-items: center;
+    }
+     .deguster
+    {
+        align-items: center;
+    }
+    .bloc 
+    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
     }
   }
 
@@ -479,6 +487,7 @@ ul
         display: flex;
         justify-content: center;
         margin-right: 7%;
+        font-size: xx-large;
     }
     .all_restaurant
     {
@@ -535,6 +544,7 @@ ul
     footer
     {
         margin-top: 2%;
+        display: block;
     }
     .liste_fonctionnement
     {
@@ -545,14 +555,45 @@ ul
     {
         width: 14%;
         margin-left: 2%;
-=======
-        flex-flow: nowrap;
-        width: 25%;
+        align-items: center;
     }
-    .restaurant{
+    .choisir 
+    {
+        width: 7%;
+        height: 50%;
+        align-items: center;
+        font-size: x-large;
+    }
+    .composer
+    {
+        width: 7%;
+        height: 50%;
+        align-items: center;
+        font-size: x-large;
+    }
+     .deguster
+    {
+        width: 7%;
+        height: 50%;
+        align-items: center;
+        font-size: x-large;
+    }
+    .choix-menu2, .choix-menu, .boutton_nouveau, .fa-list-ul, .fa-store, .fas.fa-mobile-alt
+    {
+        font-size: x-large;
+    }
+    footer
+    {
+        margin-top: 2%;
+        display: block;
+        text-align: center;
+        font-size: x-large;
+    }
+    ul
+    {
         display: flex;
-        flex-flow: nowrap;
-        width: 25%;
->>>>>>> main
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: x-large;
     }
   }
