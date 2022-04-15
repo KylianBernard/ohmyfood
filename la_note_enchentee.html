@@ -1,174 +1,518 @@
-<!DOCTYPE html>
-<html lang="fr">
-   <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height, target-densitydpi=medium-dpi" />
-      <link rel="stylesheet" href="lanoteenchente.css" />
 
-      <script src="https://kit.fontawesome.com/0cb7c5b8f4.js" crossorigin="anonymous"></script>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Shrikhand&display=swap" rel="stylesheet">
-      <title> La note enchentée </title>
-   </head>
-   <body>
-      <header>
-          <a href="../OhmyFood/index.html">
-              <i class="fas fa-arrow-left"></i>
-          </a>
-          <div class="header_lpdg">
-              <h1>ohmyfood</h1>
-          </div>
-          <div class="image_header">
-              <img src="./Maquettes Ohmyfood/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="Restaurant la note enchentée"/>
-          </div>
-      </header>
-      <main>
-          <div class="ensemble_titrelogo">
-              <div class="titre_pagelpdg">
-                  <a>La note enchentée</a> 
-              </div>
-              <div class="aime">
-                      <i class="fa fa-heart-o "></i>
-              </div>
-          </div>
+body
+{
+    position: relative;
+}
+.header_lpdg
+{
+    font-family: "Shrikhand";
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    margin-bottom: -3%;
+}
+.fa-arrow-left
+{
+  position: absolute;
+  display: flex;
+  margin-top: 5%;
+}
 
-          <section class="section_menu">
-              <div class="all_section">
-                  <div class="menu_1">
-                      <h2>ENTRÉES</h2>
-                      <p class="menu__ligne"></p>
-                      <div class="card slide_1">
-                          <div class="title_description">
-                              <h3>Ravioles de foie gras</h3>
-                              <p class="other">Accompagné de leur crème à la truffe</p>
-                          </div>
-                          <p class="price">25€</p>
-                          <div class="check"><i class="fas fa-check-circle"></i></div>
-                      </div>
-          
-                      <div class="card slide_2">
-                          <div class="title_description">
-                              <h3>Caviar osciètre</h3>
-                              <p class="other">Sur blini à la farine de blé noir</p>
-                          </div>
-                          <p class="price">35€</p>
-                          <div class="check"><i class="fas fa-check-circle"></i></div>
-                      </div>
-          
-                      <div class="card slide_3">
-                          <div class="title_description">
-                              <h3>Homar et espuma de potiron</h3>
-                              <p class="other">Mariné aux zestes d'orange</p>
-                          </div>
-                          <p class="price">20€</p>
-                          <div class="check"><i class="fas fa-check-circle"></i></div>
-                      </div>
+header img
+{
+    width: 107%;
+    height: 245px;
+    object-fit: cover;
+}
+.image_header
+{
+    margin-left: -5%;
+}
+main
+{
+    margin: 0px;
+    top: 260px;
+    width: 106%;
+    height: 950px;
+    border-radius: 30px 30px 0px 0px;
+    background-color: #f6f6f6;
+    margin-left: -3%;
+    position: absolute;
+}
+.titre_pagelpdg
+{
+    font-family: "Shrikhand"; 
+    margin-left: 5%;
+}
+.ensemble_titrelogo
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: x-large;
+}
 
-                      <div class="card slide_3">
-                        <div class="title_description">
-                            <h3>Foie gras de canard cuit entier</h3>
-                            <p class="other">AConfiture de figue et pain toasté</p>
-                        </div>
-                        <p class="price">35€</p>
-                        <div class="check"><i class="fas fa-check-circle"></i></div>
-                    </div>
-                  </div>
-          
-                  <div class="menu_1">
-                      <h2>PLATS</h2>
-                      <p class="menu__ligne"></p>
-                      <div class="card slide_4">
-                          <div class="title_description">
-                              <h3>Noix de coquilles Saint-Jacques</h3>
-                              <p class="other">Sur lit de purée de célerie-rave</p>
-                          </div>
-                          <p class="price">40€</p>
-                          <div class="check"><i class="fas fa-check-circle"></i></div>
-                      </div>
-          
-                      <div class="card slide_5">
-                          <div class="title_description">
-                              <h3>Langoustine poêlée</h3>
-                              <p class="other">Purée de patate douce</p>
-                          </div>
-                          <p class="price">35€</p>
-                          <div class="check"><i class="fas fa-check-circle"></i></div>
-                      </div>
-          
-                      <div class="card slide_6">
-                          <div class="title_description">
-                              <h3>Mijoté de queue de boeuf</h3>
-                              <p class="other">Et riz sauvage aux zestes de citron</p>
-                          </div>
-                          <p class="price">44€</p>
-                          <div class="check"><i class="fas fa-check-circle"></i></div>
-                      </div>
-                  </div>
-          
-                  <div class="menu_1 third_slide">
-                      <h2>DESSERTS</h2>
-                      <p class="menu__ligne"></p>
-                      <div class="card slide_7">
-                          <div class="title_description">
-                              <h3>Macaron noisette et chocolat</h3>
-                              <p class="other">Glace au caramal brun et sel de Guérande</p>
-                          </div>
-                          <p class="price">18€</p>
-                          <div class="check"><i class="fas fa-check-circle"></i></div>
-                      </div>
-          
-                      <div class="card slide_8">
-                          <div class="title_description">
-                              <h3>Baba au rhun Revisité</h3>
-                              <p class="other">Avec son coulis de citron</p>
-                          </div>
-                          <p class="price">22€</p>
-                          <div class="check"><i class="fas fa-check-circle"></i></div>
-                      </div>
-          
-                      <div class="card slide_9">
-                          <div class="title_description">
-                              <h3>Tarte au citron meringuée</h3>
-                              <p class="other">Déstructurée</p>
-                          </div>
-                          <p class="price">23€</p>
-                          <div class="check"><i class="fas fa-check-circle"></i></div>
-                      </div>
-                  </div>
-              </div>
-          </section>
+.aime
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-top: 2%;
+}
 
-       <!-- Bouton -->
 
-                  <div class="menu__button">
-                    <button class="menu--btn">Commander</button>
-                </div>
-            </main>
-                 <!--  Footer -->
-        <footer>
-            <h3>ohmyfood</h3>
-            <ul>
-                <li>
-                    <div class="icone"> 
-                        <i class="fas fa-utensils"></i>
-                    </div>
-                    <a href="#">Proposer un restaurant</a>
-                </li>
-                <li>
-                    <div class="icone">
-                        <i class="fas fa-hands-helping"></i> 
-                    </div>
-                    <a href="#">Devenir partenaire</a>
-                </li>
-                <li>
-                    <a href="#">Mentions légales</a>
-                </li>
-                <li>
-                    <a href="">Contact</a>
-                </li>
-            </ul>
-        </footer>
-    </body>
-</html>
 
+h1{
+  font-family: "Shrikhand", Arial;
+  font-weight: normal;
+  font-size: 1.4em;
+}
+
+/* SECTIONS */
+.menu__ligne {
+  background-color: #99e2d0;
+  width: 48px;
+  height: 1px;
+  margin-left: 11px;
+}
+.menu_1{
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  padding: 0em 2em 1em 2em;
+  grid-gap: 1em;
+  overflow: hidden;
+}
+
+.menu_1 h2{
+  font-weight: normal;
+  font-family: "Roboto-thin", Arial;
+  font-size: 1.1em;
+  margin-bottom: -0.5em;
+}
+
+.menu_one img{
+  height: 0.2em;
+  width: 2.5em;
+}
+
+/* CARDS */
+
+.card{
+  background-color: white;
+  border-radius: 1em;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0.2em 0.2em 1em lightgrey;
+  height: 4em;
+  overflow: hidden;
+  width: 116%;
+  margin-left: -8%;
+}
+
+.card h3{
+  margin-bottom: -0.8em;
+  font-family: "Roboto-Medium", Arial;
+  font-weight: normal;
+  font-size: 1em;
+  padding: 0em 0em 0em 1em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card p{
+  font-family: "Roboto-Thin", Arial;
+  font-size: 0.8em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+
+.all_description{
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.title_description{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.other{
+  padding: 0em 0em 0em 1.2em;
+}
+
+#text{
+  font-family: "Roboto", Arial;
+}
+
+.price{
+  display: flex;
+  align-items: flex-end;
+  margin-left: auto ;
+  font-family: "Roboto-Medium", Arial ;
+}
+
+.check
+{
+  background-color: #99E2D0;
+  color: white;
+  margin-right: -2.3em;
+  width: 1.8em;
+  margin-left: auto;
+  transition: margin-right 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  transform: rotate(-360deg);
+}
+
+.card:hover .check {
+  margin-right: 0em;
+}
+
+.check i{
+  font-size: 20px;
+}
+
+.fa-heart i{
+  font-size: 1.5em;
+}
+
+.far{
+  color: black;
+  transition: 1000ms;
+}
+
+.far:hover{
+  font-weight: bold;
+  color: #FF79DA;
+}
+
+.card:hover .check i
+{
+  animation: rotateCheck 0.7s 1 both;
+}
+.fa-check-circle
+{
+  font-size: 20px;
+  color: white;  
+}
+
+
+.card:hover .fa-check-circle
+{
+  transform: rotate(360deg);
+}
+
+
+
+/* ANIMATION SLIDE */
+@keyframes texte_slide{0%
+  {
+transform: translateY(10px);
+opacity: 0;
+}
+100%{
+  transform: translateY(0px);
+  opacity: 1;
+}
+}
+
+.slide_1 
+{
+animation-name: texte_slide;
+animation-duration: 600ms;
+animation-delay: 0ms;
+animation-timing-function: ease-in-out;
+animation-iteration-count: 1;
+}
+.slide_2 
+{
+  animation-name: texte_slide;
+  animation-duration: 600ms;
+  animation-delay: 200ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+.slide_3 
+{
+animation-name: texte_slide;
+animation-duration: 600ms;
+animation-delay: 600ms;
+animation-timing-function: ease-in-out;
+animation-iteration-count: 1;
+}
+.slide_4 
+{
+  animation-name: texte_slide;
+  animation-duration: 600ms;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+.slide_5
+{
+  animation-name: texte_slide;
+  animation-duration: 600ms;
+  animation-delay: 200ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+.slide_6
+{
+  animation-name: texte_slide;
+  animation-duration: 600ms;
+  animation-delay: 600ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+.slide_7
+{
+  animation-name: texte_slide;
+  animation-duration: 600ms;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+.slide_8
+{
+  animation-name: texte_slide;
+  animation-duration: 600ms;
+  animation-delay: 200ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+.slide_9
+{
+  animation-name: texte_slide;
+  animation-duration: 600ms;
+  animation-delay: 600ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+.menu__button {
+  background: #f2f2f2;
+  padding: 60px 0 90px 0;
+  text-align: center;
+}
+.menu--btn {
+  font-size: 15px;
+  color: #f2f2f2;
+  padding: 16px 50px;
+  border-radius: 26px;
+  background: linear-gradient(#ff79da 0%, #9356dc 100%);
+  transition: all 0.5s ease-out;
+  border: none;
+}
+.menu--btn:hover, .menu--btn:active {
+  filter: brightness(110%);
+}
+
+footer
+{
+    position: absolute;
+}
+
+
+footer h3
+{
+    font-family: "Shrikhand";
+    margin-left: 12%;
+}
+
+li
+{
+    display: flex;
+    list-style-type: none;
+}
+.icone 
+{
+    width: 10%;
+}
+li a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer 
+{
+  position: absolute;
+  background: #353535;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font-family: "roboto", sans-serif;
+  width: 106%;
+  margin-top: 76rem;
+  margin-left: -3%;
+}
+ul
+{
+    line-height: 25px;
+}
+
+  /* ---------------------------- Tablettes ---------------------------- */
+
+  @media screen and (min-width: 700px) and (max-width: 1024px) {
+    main 
+    {
+      height: 600px;
+    }
+    .all_section {
+      display:flex;
+      justify-content: space-between;
+  
+    }
+    header img{
+      width: 103%;
+      height: 250px;
+      margin-top: 2%;
+  
+    }
+    .fa-arrow-left{
+      margin-top: 2%;
+    }
+    .aime{
+      margin-top: 1%;
+    }
+    footer{
+      margin-top: 31rem;
+    }
+    .menu__button
+    {
+      padding: 30px 0 90px 0;
+      margin-top: -3rem;
+    }
+    .menu--btn
+    {
+      margin-top: 5%;
+    }
+    .menu__ligne
+    {
+      margin-left: 0;
+    }
+    .price
+    {
+      padding: 1px 45px 1PX 0px;
+    }
+    footer 
+    {
+      display: block;
+    }
+    footer h3 
+    {
+      margin-left: 42%;
+    }
+    ul
+    {
+      display: flex;
+      font-size: 1rem;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .menu_1
+    {
+      width: 33%;
+    }
+  }
+  /* ---------------------------- Ordinateur ---------------------------- */
+
+@media screen and (min-width: 1025px) and (max-width: 1921px)  {
+  main 
+  {
+    height: 800px;
+    margin-top: 8rem;
+  }
+  .all_section {
+    display:flex;
+    justify-content: space-around;
+    font-size: 1.4rem;
+  }
+  .fa-arrow-left
+  {
+    font-size: xx-large;
+  }
+  .header_lpdg
+  {
+    font-size: xx-large;
+  }
+  header img{
+    width: 105%;
+    height: 290px;
+    margin-top: 2%;
+
+  }
+  .ensemble_titrelogo
+  {
+    font-size: xx-large;
+  }
+  .fa-arrow-left{
+    margin-top: 2%;
+  }
+  .aime{
+    margin-top: 12px;
+  }
+  footer{
+    margin-top: 50rem;
+  }
+  .menu__button
+  {
+    padding: 30px 0 90px 0;
+  }
+  .menu--btn
+  {
+    font-size: 2rem;
+  }
+  .menu_1
+  {
+    width: 24%;
+  }
+  .card
+  {
+    width: 118%;
+  }
+
+  .menu__ligne
+  {
+    margin-left: 0;
+  }
+  .check i 
+  {
+    font-size: 35px;
+  }
+  footer
+  {
+    flex-direction: column;
+    margin-top: 53rem;
+  }
+  footer h3 
+  {
+    margin-left: 57rem;
+    font-size: xx-large;
+  }
+  ul
+  {
+    display: flex;
+    justify-content: space-around;
+    font-size: xx-large;
+  }
+  li
+  {
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu--btn 
+  {
+    font-size: 2rem;
+    margin-top: 2%;
+  }
+.title_description
+{
+  font-size: 25px;
+}
+}

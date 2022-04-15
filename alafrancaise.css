@@ -11,13 +11,13 @@ body
     font-size: small;
     margin-bottom: -3%;
 }
-
 .fa-arrow-left
 {
   position: absolute;
   display: flex;
   margin-top: 5%;
 }
+
 header img
 {
     width: 107%;
@@ -161,13 +161,13 @@ h1{
   background-color: #99E2D0;
   color: white;
   margin-right: -2.3em;
-  width: 2.3em;
-  margin-left: 1em;
+  width: 1.8em;
+  margin-left: auto;
   transition: margin-right 1s;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2em;
+  font-size: 3em;
   transform: rotate(-360deg);
 }
 
@@ -193,17 +193,20 @@ h1{
   color: #FF79DA;
 }
 
-
+.card:hover .check i
+{
+  animation: rotateCheck 0.7s 1 both;
+}
 .fa-check-circle
 {
   font-size: 20px;
   color: white;  
 }
 
+
 .card:hover .fa-check-circle
 {
   transform: rotate(360deg);
-  transition: transform 0.5s 0.5s;
 }
 
 
@@ -223,11 +226,7 @@ opacity: 0;
 .slide_1 
 {
 animation-name: texte_slide;
-<<<<<<< HEAD
 animation-duration: 600ms;
-=======
-animation-duration: 300ms;
->>>>>>> main
 animation-delay: 0ms;
 animation-timing-function: ease-in-out;
 animation-iteration-count: 1;
@@ -235,7 +234,6 @@ animation-iteration-count: 1;
 .slide_2 
 {
   animation-name: texte_slide;
-<<<<<<< HEAD
   animation-duration: 600ms;
   animation-delay: 200ms;
   animation-timing-function: ease-in-out;
@@ -246,40 +244,20 @@ animation-iteration-count: 1;
 animation-name: texte_slide;
 animation-duration: 600ms;
 animation-delay: 600ms;
-=======
-  animation-duration: 300ms;
-  animation-delay: 20ms;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;}
-.slide_3 
-{
-animation-name: texte_slide;
-animation-duration: 300ms;
-animation-delay: 30ms;
->>>>>>> main
 animation-timing-function: ease-in-out;
 animation-iteration-count: 1;
 }
 .slide_4 
 {
-<<<<<<< HEAD
   animation-name: texte_slide;
   animation-duration: 600ms;
   animation-delay: 0ms;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
-=======
-animation-name: texte_slide;
-animation-duration: 300ms;
-animation-delay: 0ms;
-animation-timing-function: ease-in-out;
-animation-iteration-count: 1;
->>>>>>> main
 }
 .slide_5
 {
   animation-name: texte_slide;
-<<<<<<< HEAD
   animation-duration: 600ms;
   animation-delay: 200ms;
   animation-timing-function: ease-in-out;
@@ -300,32 +278,10 @@ animation-iteration-count: 1;
   animation-delay: 0ms;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
-=======
-  animation-duration: 300ms;
-  animation-delay: 20ms;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;}
-.slide_6
-{
-animation-name: texte_slide;
-animation-duration: 300ms;
-animation-delay: 30ms;
-animation-timing-function: ease-in-out;
-animation-iteration-count: 1;
-}
-.slide_7
-{
-animation-name: texte_slide;
-animation-duration: 300ms;
-animation-delay: 0ms;
-animation-timing-function: ease-in-out;
-animation-iteration-count: 1;
->>>>>>> main
 }
 .slide_8
 {
   animation-name: texte_slide;
-<<<<<<< HEAD
   animation-duration: 600ms;
   animation-delay: 200ms;
   animation-timing-function: ease-in-out;
@@ -338,21 +294,8 @@ animation-iteration-count: 1;
   animation-delay: 600ms;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
-=======
-  animation-duration: 300ms;
-  animation-delay: 20ms;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;}
-.slide_9
-{
-animation-name: texte_slide;
-animation-duration: 300ms;
-animation-delay: 30ms;
-animation-timing-function: ease-in-out;
-animation-iteration-count: 1;
->>>>>>> main
 }
- 
+
 .menu__button {
   background: #f2f2f2;
   padding: 60px 0 90px 0;
@@ -365,10 +308,7 @@ animation-iteration-count: 1;
   border-radius: 26px;
   background: linear-gradient(#ff79da 0%, #9356dc 100%);
   transition: all 0.5s ease-out;
-<<<<<<< HEAD
   border: none;
-=======
->>>>>>> main
 }
 .menu--btn:hover, .menu--btn:active {
   filter: brightness(110%);
@@ -409,13 +349,15 @@ footer
   flex-direction: column;
   font-family: "roboto", sans-serif;
   width: 106%;
-  margin-top: 72rem;
+  margin-top: 76rem;
   margin-left: -3%;
 }
 ul
 {
     line-height: 25px;
 }
+/* ---------------------------- Tablettes ---------------------------- */
+
 
 @media screen and (min-width: 700px) and (max-width: 1024px) {
   main 
@@ -440,19 +382,46 @@ ul
     margin-top: 1%;
   }
   footer{
-<<<<<<< HEAD
     margin-top: 31rem;
   }
   .menu__button
   {
     padding: 30px 0 90px 0;
+    margin-top: -3rem;
+  }
+  .menu--btn
+  {
+    margin-top: 5%;
   }
   .menu__ligne
   {
     margin-left: 0;
   }
+  .price
+  {
+    padding: 1px 45px 1PX 0px;
+  }
+  footer 
+  {
+    display: block;
+  }
+  footer h3 
+  {
+    margin-left: 42%;
+  }
+  ul
+  {
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .menu_1
+  {
+    width: 33%;
+  }
 }
-
+  /* ---------------------------- Ordinateur ---------------------------- */
 
 @media screen and (min-width: 1025px) and (max-width: 1921px)  {
   main 
@@ -464,7 +433,6 @@ ul
     display:flex;
     justify-content: space-around;
     font-size: 1.4rem;
-}
   }
   .fa-arrow-left
   {
@@ -509,13 +477,19 @@ ul
   {
     width: 118%;
   }
+
   .menu__ligne
   {
     margin-left: 0;
   }
+  .check i 
+  {
+    font-size: 35px;
+  }
   footer
   {
     flex-direction: column;
+    margin-top: 53rem;
   }
   footer h3 
   {
@@ -533,8 +507,13 @@ ul
     display: flex;
     justify-content: space-around;
   }
-=======
-    margin-top: 35rem;
+  .menu--btn 
+  {
+    font-size: 2rem;
+    margin-top: 2%;
   }
+.title_description
+{
+  font-size: 25px;
 }
->>>>>>> main
+}
