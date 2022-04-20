@@ -140,6 +140,7 @@ h1{
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  width: 75%;
 }
 
 .other{
@@ -153,8 +154,8 @@ h1{
 .price{
   display: flex;
   align-items: flex-end;
-  margin-left: auto ;
   font-family: "Roboto-Medium", Arial ;
+  padding: 5px;
 }
 
 .check
@@ -514,11 +515,10 @@ ul
     display: flex;
     justify-content: space-around;
   }
-  .menu--btn 
-  {
+  .menu--btn {
     font-size: 2rem;
     margin-top: 2%;
-  }
+}
 .title_description
 {
   font-size: 25px;
