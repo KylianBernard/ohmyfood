@@ -196,12 +196,17 @@ input
 {
     margin-right: 36px;
 }
+
 .choix:hover 
 {
   cursor: pointer;
   transition-duration: 0.25s;
   color: #9456dc;
   background-color: #9256dc25;
+}
+.choix:hover i 
+{
+    color: #9356DC;
 }
 li 
 {
@@ -367,7 +372,7 @@ ul
     }
     .fonction h2
     {
-        margin-left: 32%;
+        margin-left: 26%;
     }
     .titre_restaurant h3
     {
@@ -407,9 +412,10 @@ ul
     }
     ul
     {
-        align-items: center;
-        display: flex;
-        justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6rem;
     }
     footer
     {
@@ -419,9 +425,8 @@ ul
     }
     .liste_fonctionnement
     {
-        display: flex;
-        width: 200%;
-        margin-left: -45%;
+    display: flex;
+    width: 91%;
     }
     .caption
     {
@@ -477,10 +482,16 @@ ul
     {
         font-size: 2rem;
     }
+    .icone
+    {
+        width: 10%;
+        display: flex;
+        justify-content: right;
+    }
     .btn
     {
         width: 30%;
-        margin-left: 37rem;
+        margin-left: 39rem;
     }
     .fonction h2
     {
@@ -589,12 +600,12 @@ ul
         text-align: center;
         font-size: x-large;
     }
-    ul
+    footer ul
     {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
         font-size: x-large;
+        justify-content: space-around;
     }
     .bloc 
     {
@@ -606,4 +617,10 @@ ul
     {
         margin-left: 0;
     }
+    a
+    {
+        color: white;
+        width: 54%;
+    }
   }
+  
