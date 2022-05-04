@@ -194,7 +194,7 @@ input
 }
 .choix-menu2
 {
-   margin-right: 33px;
+   margin-right: 14%;
 }
 
 .choix:hover 
@@ -643,4 +643,4 @@ ul
         color: white;
         width: 54%;
     }
-  }
+   }
