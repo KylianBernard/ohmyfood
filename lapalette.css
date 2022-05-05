@@ -403,6 +403,7 @@ ul
   .price
   {
     padding: 1px 45px 1PX 0px;
+    margin-left: 4rem;
   }
   footer 
   {
@@ -469,6 +470,10 @@ ul
   .menu_1
   {
     width: 24%;
+  }
+  .price
+  {
+    margin-left: 6Rem;
   }
   .card
   {
