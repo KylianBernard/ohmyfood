@@ -23,6 +23,10 @@ header img
     height: 245px;
     object-fit: cover;
 }
+header i 
+{
+  color: black;
+}
 .image_header
 {
     margin-left: -5%;
@@ -155,7 +159,7 @@ h1{
   display: flex;
   align-items: flex-end;
   font-family: "Roboto-Medium", Arial ;
-  padding: 5px 10px 2px 5px;
+  padding: 5px;
   margin-left: 2rem;
 }
 
@@ -471,10 +475,6 @@ ul
   {
     width: 24%;
   }
-  .price
-  {
-    margin-left: 6Rem;
-  }
   .card
   {
     width: 118%;
@@ -528,5 +528,9 @@ ul
 .title_description
 {
   font-size: 25px;
+}
+.price
+{
+  margin-left: 6rem;
 }
  }
