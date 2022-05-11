@@ -488,7 +488,7 @@ ul
   }
 
 
-  @media screen and (min-width: 1025px) and (max-width: 1921px) 
+  @media screen and (min-width: 1025px)
 {
 
     header h1
@@ -499,6 +499,7 @@ ul
     {
         justify-content: center;
         font-size: xx-large;
+        width: 95%;
     }
     .fas.fa-map-marker-alt
     {
@@ -535,7 +536,7 @@ ul
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        width: 105%;
+        width: 100%;
         margin-left: -5%;
         height: 880px;
     }
@@ -545,6 +546,7 @@ ul
         justify-content: center;
         font-size: xx-large;
         margin-right: 0;
+        width: 99%;
     }
     .restaurant
     {
@@ -574,14 +576,14 @@ ul
     }
     .Nouveau_note 
     {
-        margin-top: -13%;
-        margin-left: 22%;
+        margin-top: -12%;
+        margin-left: 21%;
         width: 11%;
     }
     .Nouveau_palette 
     {
-        margin-top: -13%;
-        margin-left: 22%;
+        margin-top: -12%;
+        margin-left: 21%;
         width: 11%;
     }
     footer
@@ -592,32 +594,32 @@ ul
     .liste_fonctionnement
     {
         display: flex;
-        width: 200%;
+        width: 100%;
     }
     .choix
     {
-        width: 14%;
+        width: 33%;
         margin-left: 2%;
         align-items: center;
     }
     .choisir 
     {
-        width: 9%;
-        height: 70%;
+        width: 8%;
+        height: 66%;
         align-items: center;
         font-size: x-large;
     }
     .composer
     {
-        width: 9%;
-        height: 70%;
+        width: 8%;
+        height: 66%;
         align-items: center;
         font-size: x-large;
     }
      .deguster
     {
-        width: 9%;
-        height: 70%;
+        width: 8%;
+        height: 66%;
         align-items: center;
         font-size: x-large;
     }
@@ -631,6 +633,8 @@ ul
         text-align: center;
         font-size: x-large;
         padding-top: 3rem;
+        padding-bottom: 1rem;
+        width: 100%;
     }
     footer ul
     {
