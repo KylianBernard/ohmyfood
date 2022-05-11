@@ -183,8 +183,8 @@ input
 
 .choisir , .composer , .deguster
 {
-    width: 9%;
-    height: 40%;
+    width: 8%;
+    height: 38%;
     border-radius: 50%;
     background-color: #9356DC;
     display: flex;
@@ -198,7 +198,11 @@ input
 }
 .choix-menu2
 {
-    margin-right: 36px;
+    margin-right: 38px;
+}
+.rond 
+{
+    margin-left: -14%;
 }
 
 .choix:hover 
@@ -225,7 +229,6 @@ li
 }
 .all_restaurant
 {
-    background-color: #f2f2f2;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -362,11 +365,11 @@ ul
     
     .localisation
     {
-        padding-right: 20rem;
+        padding-right:41%;
     }
     .fas.fa-map-marker-alt
     {
-        margin-left: 20rem;
+        margin-left: 71%;
     }
     .btn
     {
@@ -391,6 +394,7 @@ ul
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        height: 600px;
     }
     .restaurant
     {
@@ -425,13 +429,14 @@ ul
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-right: 6rem;
     }
     footer
     {
-        margin-top: 2%;
+        margin-top: 0;
         display: block;
         text-align: center;
+        height: 114px;
+        width: 103%;
     }
     footer ul 
     {
@@ -439,10 +444,14 @@ ul
         flex-direction: initial;
 
     }
-    li 
-    {
-        width: 17%;
-    }
+  .icone
+  {
+    width: auto;
+  }
+  li 
+  {
+    width: 14%;
+  }
     .liste_fonctionnement
     {
     display: flex;
@@ -474,7 +483,7 @@ ul
     footer h3 
     {
         margin-left: 0;
-        padding-top:1rem ;
+        margin-top: 0;
     }
   }
 
@@ -528,6 +537,7 @@ ul
         justify-content: center;
         width: 105%;
         margin-left: -5%;
+        height: 880px;
     }
     .titre_restaurant
     {
@@ -576,7 +586,7 @@ ul
     }
     footer
     {
-        margin-top: 2%;
+        margin-top: 0;
         display: block;
     }
     .liste_fonctionnement
@@ -592,22 +602,22 @@ ul
     }
     .choisir 
     {
-        width: 7%;
-        height: 50%;
+        width: 9%;
+        height: 70%;
         align-items: center;
         font-size: x-large;
     }
     .composer
     {
-        width: 7%;
-        height: 50%;
+        width: 9%;
+        height: 70%;
         align-items: center;
         font-size: x-large;
     }
      .deguster
     {
-        width: 7%;
-        height: 50%;
+        width: 9%;
+        height: 70%;
         align-items: center;
         font-size: x-large;
     }
@@ -617,10 +627,10 @@ ul
     }
     footer
     {
-        margin-top: 2%;
         display: block;
         text-align: center;
         font-size: x-large;
+        padding-top: 3rem;
     }
     footer ul
     {
@@ -638,6 +648,7 @@ ul
     footer h3
     {
         margin-left: 0;
+        margin-top: 0;
     }
     a
     {
